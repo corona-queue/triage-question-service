@@ -20,14 +20,15 @@ class QuestionTreeResource(Resource):
         with open('files/questions.json') as json_file:
             question_json = json.load(json_file)
 
-        # Translate text for answers
-        option_results = []
-        for option in question_json["options"]:
-            option_results.append(active_text_map[option])
-        question_json["options"] = option_results
+        for question in question_json:
+            # Translate text for answers
+            option_results = []
+            for option in question["options"]:
+                option_results.append(active_text_map[option])
+            question["options"] = option_results
 
-        # Translate text for question
-        text_id = question_json["text"]
-        text_id["text"] = active_text_map[text_id]
+            # Translate text for question
+            text_id = question["text"]
+            text_id["text"] = active_text_map[text_id]
 
         return question_json
