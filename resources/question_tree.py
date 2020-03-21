@@ -26,8 +26,13 @@ class QuestionTreeResource(Resource):
             # Translate text for answers
             if question["options"]:
                 option_results = []
-                for option in question["options"]:
-                    option_results.append({option: active_text_map[option]})
+                for index, option in enumerate(question["options"]):
+                    value = 0
+                    if "scoreMap" in question:
+                        value = question["scoreMap"][index]
+                    option_results.append({'id': option,
+                                           'text': active_text_map[option],
+                                           'value': value})
                 question["options"] = option_results
 
             # Translate text for question
