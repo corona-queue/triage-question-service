@@ -1,0 +1,12 @@
+{
+  "id": "q01",
+  "category": "personalInfo",
+  "comment": null,
+  "text": "q01_text",
+  "inputType": "radio",
+  "options": [
+    "a01",
+    "a02"
+    ],
+  "nextQuestionMap": []
+}
