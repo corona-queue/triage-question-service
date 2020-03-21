@@ -27,7 +27,7 @@ class QuestionTreeResource(Resource):
             if question["options"]:
                 option_results = []
                 for option in question["options"]:
-                    option_results.append(active_text_map[option])
+                    option_results.append({option: active_text_map[option]})
                 question["options"] = option_results
 
             # Translate text for question
