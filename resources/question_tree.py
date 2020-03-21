@@ -14,7 +14,9 @@ class QuestionTreeResource(Resource):
 
         args = parser.parse_args()
 
-        active_text_map = text_maps[args["lang"]]
+        language = args["lang"] or "ger"
+
+        active_text_map = text_maps[language]
 
         question_json = {}
         with open('files/questions.json') as json_file:
