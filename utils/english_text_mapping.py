@@ -32,7 +32,7 @@ english_text_map = {
     'input_date_error': 'Invalid date. Please try again.',
     'input_date_error_future': 'The date may not be in the future.',
     'input_date_help': 'Please enter a valid date in form DD.MM.YYYYY which is not in the future. Example: 09.03.2020',
-    'input_date_label': 'please enter the date.'
+    'input_date_label': 'please enter the date.',
     'input_date_placeholder': 'DD.MM.YYYY',
     'legal_first_paragraph': '',
     'legal_headline': 'Legal matters',
