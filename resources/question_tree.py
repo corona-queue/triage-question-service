@@ -24,13 +24,14 @@ class QuestionTreeResource(Resource):
 
         for question in question_json:
             # Translate text for answers
-            option_results = []
-            for option in question["options"]:
-                option_results.append(active_text_map[option])
-            question["options"] = option_results
+            if question["options"]:
+                option_results = []
+                for option in question["options"]:
+                    option_results.append(active_text_map[option])
+                question["options"] = option_results
 
             # Translate text for question
             text_id = question["text"]
-            text_id["text"] = active_text_map[text_id]
+            question["text"] = active_text_map[text_id]
 
         return question_json
