@@ -822,6 +822,7 @@
     "comment": null,
     "text": "qend_text",
     "inputType": "radio",
+		"hidden": true,
     "options": [
       "answer_okay"
     ],
