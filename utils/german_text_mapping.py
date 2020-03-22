@@ -109,6 +109,7 @@ german_text_map = {
     'q25_text': 'Fühlen Sie sich schlapp oder abgeschlagen?',
     'q26_text': 'Haben Sie Gliederschmerzen?',
     'q27_text': 'Haben Sie anhaltenden Husten?',
+	'q52_text': 'Haben Sie Reizhusten?',
     'q28_text': 'Haben Sie Schnupfen?',
 	'q28_comment': 'In der Regel äußert sich Schnupfen durch eine verstopfte Nase.',
 	'q50_text': 'Niesen Sie aktuell?',

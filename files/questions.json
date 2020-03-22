@@ -487,7 +487,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -503,7 +503,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -519,7 +519,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -535,10 +535,26 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
+	{
+		"id": "q52",
+		"category": "symptomsMediumRisk",
+		"comment": null,
+		"text": "q52_text",
+		"inputType": "radio",
+		"options": [
+			"answer_yes",
+			"answer_no"
+		],
+		"nextQuestionMap": null,
+		"scoreMap": [
+			2,
+			0
+		]
+	},
   {
     "id": "q28",
     "category": "symptoms",
@@ -550,7 +566,7 @@
       "answer_no"
     ],
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -565,7 +581,7 @@
 			"answer_no"
 		],
 		"scoreMap": [
-			1,
+			2,
 			0
 		]
 	},
@@ -581,7 +597,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -597,7 +613,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -613,7 +629,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      2,
       0
     ]
   },
@@ -629,7 +645,7 @@
     ],
     "nextQuestionMap": null,
     "scoreMap": [
-      1,
+      3,
       0
     ]
   },
@@ -653,6 +669,11 @@
       "answer_no",
       "answer_unknown"
     ],
+		"scoreMap": [
+      2,
+      0,
+			0
+    ],
     "nextQuestionMap": null
   },
   {
@@ -665,6 +686,11 @@
       "answer_yes",
       "answer_no",
       "answer_unknown"
+    ],
+		"scoreMap": [
+      2,
+      0,
+			0
     ],
     "nextQuestionMap": null
   },
@@ -679,6 +705,11 @@
       "answer_no",
       "answer_unknown"
     ],
+		"scoreMap": [
+      2,
+      0,
+			0
+    ],
     "nextQuestionMap": null
   },
   {
@@ -692,6 +723,11 @@
       "answer_no",
       "answer_unknown"
     ],
+		"scoreMap": [
+      2,
+      0,
+			0
+    ],
     "nextQuestionMap": null
   },
   {
@@ -704,6 +740,11 @@
       "answer_yes",
       "answer_no",
       "answer_unknown"
+    ],
+		"scoreMap": [
+      2,
+      0,
+			0
     ],
     "nextQuestionMap": null
   },
@@ -719,7 +760,7 @@
       "answer_unknown"
     ],
     "scoreMap": [
-      1,
+      2,
       0,
       0
     ],
@@ -737,7 +778,7 @@
       "answer_unknown"
     ],
     "scoreMap": [
-      1,
+      2,
       0,
       0
     ],
