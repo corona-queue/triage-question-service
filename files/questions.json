@@ -1,4 +1,36 @@
 [
+	{
+		"id": "q00a",
+		"category": "personalInfo",
+		"comment": null,
+		"text": "q00a_text",
+		"inputType": "radio",
+		"options": [
+			"answer_yes",
+			"answer_no"
+		],
+		"scoreMap": [
+			0,
+			0
+		],
+		"nextQuestionMap": ["q00b","q01"]
+	},
+	{
+		"id": "q00b",
+		"category": "personalInfo",
+		"comment": null,
+		"text": "q00b_text",
+		"inputType": "radio",
+		"options": [
+			"answer_yes",
+			"answer_no"
+		],
+		"scoreMap": [
+			0,
+			0
+		],
+		"nextQuestionMap": ["q01","qend"]
+	},
   {
     "id": "q01",
     "category": "personalInfo",
@@ -685,6 +717,20 @@
     "scoreMap": [
       0,
       1
+    ],
+    "nextQuestionMap": null
+  },
+	{
+    "id": "qend",
+    "category": "personalInfo",
+    "comment": null,
+    "text": "qend_text",
+    "inputType": "radio",
+    "options": [
+      "answer_okay"
+    ],
+    "scoreMap": [
+      0
     ],
     "nextQuestionMap": null
   }

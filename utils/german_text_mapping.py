@@ -35,7 +35,9 @@ german_text_map = {
     'input_date_placeholder': 'TT.MM.JJJJ',
     'legal_first_paragraph': 'Rechtliche Hinweise Haftungsausschluss (Disclaimer) Allgemeiner HinweisDie Nutzung dieser App ersetzt keine ärztliche Behandlung. Wenn Sie sich aktuell schwer krank fühlen, suchen Sie bitte umgehend medizinische Hilfe. Haftung für Inhalte Als Dienstanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Dienstanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Haftung für LinksUnser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Urheberrecht Die durch den Dienstanbieter erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.',
     'legal_headline': 'Rechtliches',
-    'q01_option0': 'Jünger als 40',
+	'q00a_text':'Haben Sie nur eine allgemeine Frage zum Coronavirus?',
+	'q00b_text':'Wollen Sie medizinische Fragen abklären?',
+	'q01_option0': 'Jünger als 40',
     'q01_option1': '40-50',
     'q01_option2': '51-60',
     'q01_option3': '61-70',
@@ -157,5 +159,7 @@ german_text_map = {
     'start_sub_headline_1': 'Vorbereitung des Ihres Arztgespräches',
     'start_sub_headline_2': 'Was ist die CovApp?',
     'start_sub_headline_3': 'Welche Daten werden über das Internet übertragen?',
-    'start_sub_headline_4': 'Im Zweifel zum Arzt!'
+    'start_sub_headline_4': 'Im Zweifel zum Arzt!',
+	'qend_text': 'Vielen Dank für ihre Antworten! Wir werden Sie jetzt zur Vereinbarung eines Rückruftermines weiterleiten.',
+	'answer_okay': 'Verstanden'
 }
