@@ -518,7 +518,7 @@
   {
     "id": "q28",
     "category": "symptoms",
-    "comment": null,
+    "comment": "q28_comment",
     "text": "q28_text",
     "inputType": "radio",
     "options": [
@@ -530,6 +530,21 @@
       0
     ]
   },
+	{
+		"id": "q50",
+		"category": "symptoms",
+		"comment": null,
+		"text": "q50_text",
+		"inputType": "radio",
+		"options": [
+			"answer_yes",
+			"answer_no"
+		],
+		"scoreMap": [
+			1,
+			0
+		]
+	},
   {
     "id": "q29",
     "category": "symptoms",
