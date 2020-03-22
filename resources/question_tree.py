@@ -35,6 +35,10 @@ class QuestionTreeResource(Resource):
                                            'value': value})
                 question["options"] = option_results
 
+            if "comment" in question and question["comment"]:
+                comment_id = question["comment"]
+                question["comment"] = active_text_map[comment_id]
+
             # Translate text for question
             text_id = question["text"]
             question["text"] = active_text_map[text_id]
