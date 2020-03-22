@@ -126,6 +126,7 @@ german_text_map = {
     'q40_text': 'Nehmen Sie aktuell Immunsuppressiva?',
     'q41_text': 'Haben Sie sich im Zeitraum von Oktober 2019 bis heute gegen Grippe impfen lassen?',
     'q42_text': 'An welchem Tag sind Sie von Ihrer Reise zurückgekehrt?',
+	'q51_text': 'Kontaktieren Sie uns auf Basis Ärztlichen Rates?',
     'qr_code_button_reset': 'Antworten löschen',
     'qr_code_headline': 'Zusammenfassung Ihrer Antworten',
     'qr_code_hide_answers': 'Antworten ausblenden',
